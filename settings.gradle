@@ -1,0 +1,2 @@
+rootProject.name='GET_Web_code'
+include ':app'

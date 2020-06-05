@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/example/get_web_code/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/get_web_code/MainActivity.java	(date 1591343989447)
++++ app/src/main/java/com/example/get_web_code/MainActivity.java	(date 1591343989447)
+@@ -27,7 +27,7 @@
+ 
+ 
+     public void get_web_code(View view) {   //按下按鈕
+-          new Thread(){
++          new Thread(){  //用背景執行序
+               @Override
+               public void run(){
+ 
